@@ -1,29 +1,51 @@
-# Nuxt 3 Minimal Starter
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+# Deploy Nuxt3 app to Netlify from CircleCI
 
-## Setup
+This repository serves as a code container for the tutorial I wrote on [CircleCI's Blog](#todo).
 
-Make sure to install the dependencies
+> Blog link will be updated once the article is published.
+
+## Features
+
+- [x] Complete configuration to deploy Nuxt3 app to Netlify from CircleCI
+
+## Prerequisites
+
+These things are required before setting up the project.
+
+- Git
+- Node.js [Read Guide](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
+## Getting Started
+
+Follow these instructions to get the project up and running.
 
 ```bash
-yarn install
+# Clone the repo
+$ git clone https://github.com/CIRCLECI-GWP/nuxt3-netlify-deploy.git
+
+# Change directory
+$ cd nuxt3-netlify-deploy
+
+# Install dependencies
+$ npm install
+
+# Serve on http://localhost:3000
+$ npm run dev
 ```
 
-## Development
+> For detailed instructions, [read the blog](#todo).
 
-Start the development server on http://localhost:3000
+## Tech Stack
 
-```bash
-yarn dev
-```
+* [Nuxt.js](https://v3.nuxtjs.org)
 
-## Production
+## Authors
 
-Build the application for production:
+- [Ravgeet Dhillon](https://github.com/ravgeetdhillon)
 
-```bash
-yarn build
-```
+## Extra
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+- You are welcome to make [issues and feature requests](https://github.com/CIRCLECI-GWP/nuxt3-netlify-deploy/issues).
+- In case you get stuck somewhere, feel free to contact me via [Mail](mailto:ravgeetdhillon@gmail.com).
