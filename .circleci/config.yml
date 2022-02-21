@@ -24,13 +24,10 @@ jobs:
       - save_cache:
           key: nuxt3-public-cache-{{ .Branch }}
           paths:
-            - ./.output
-      - run:
-          name: LS
-          command: ls -as
+            - ./.output/public
       - run:
           name: Deploy to Netlify
-          command: ./node_modules/.bin/netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_ACCESS_TOKEN --prod --dir=.output
+          command: ./node_modules/.bin/netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_ACCESS_TOKEN --prod --dir=.output/public
 workflows:
   version: 2
   build-deploy:
