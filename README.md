@@ -2,7 +2,7 @@
 
 # Deploy Nuxt3 app to Netlify from CircleCI
 
-This repository serves as a code container for the tutorial I wrote on [CircleCI's Blog](#todo).
+This repository serves as a code container for the tutorial I wrote on [CircleCI's Blog](https://www.ravgeet.in/blog/build-and-deploy-a-nuxt3-app-to-netlify).
 
 > Blog link will be updated once the article is published.
 
@@ -23,7 +23,7 @@ Follow these instructions to get the project up and running.
 
 ```bash
 # Clone the repo
-$ git clone https://github.com/CIRCLECI-GWP/nuxt3-netlify-deploy.git
+$ git clone https://github.com/ravgeetdhillon/nuxt3-netlify-deploy.git
 
 # Change directory
 $ cd nuxt3-netlify-deploy
@@ -35,7 +35,7 @@ $ npm install
 $ npm run dev
 ```
 
-> For detailed instructions, [read the blog](#todo).
+> For detailed instructions, [read the blog](https://www.ravgeet.in/blog/build-and-deploy-a-nuxt3-app-to-netlify).
 
 ## Tech Stack
 
@@ -47,5 +47,5 @@ $ npm run dev
 
 ## Extra
 
-- You are welcome to make [issues and feature requests](https://github.com/CIRCLECI-GWP/nuxt3-netlify-deploy/issues).
+- You are welcome to make [issues and feature requests](https://github.com/ravgeetdhillon/nuxt3-netlify-deploy/issues).
 - In case you get stuck somewhere, feel free to contact me via [Mail](mailto:ravgeetdhillon@gmail.com).
